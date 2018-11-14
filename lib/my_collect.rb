@@ -6,4 +6,5 @@ def my_collect(languages)
   		new_collection << new_value
   		i = i + 1
   end
+  return new_collection
 end
