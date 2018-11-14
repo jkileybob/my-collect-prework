@@ -5,4 +5,5 @@ def my_collect(languages)
     new_value = yield languages[i]
   		new_collection << new_value
   		i = i + 1
+  end
 end
